@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato | Kicks District</title>
+  <meta name="description" content="Fale com a Kicks District: envie sua mensagem pelo formulário de contato.">
+  <link rel="icon" href="assets/favicon/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/contato.js" defer></script>
+</head>
+
+<body>
+  <a class="skip" href="#main">Ir para o conteúdo</a>
+  <header class="hd">
+    <div class="wrap">
+      <a class="logo" href="index.html"><img src="assets/img/logo/logo-kicks-district.png"
+          alt="Kicks District — página inicial"></a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu"
+        aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      <nav id="menu" aria-label="Principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--CORPO SITE-->
+  <main id="main">
+    <section class="sec">
+      <div class="wrap">
+        <p class="eyebrow">Contato</p>
+        <h1>Fale com a<br>Kicks District</h1>
+        <p class="nota" style="margin:1rem 0 2.5rem;max-width:60ch">Dúvidas sobre os modelos? Envie sua mensagem e
+          informe o assunto.</p>
+        <div class="duas">
+          <div>
+            <h2>Canais de atendimento</h2>
+            <!-- PREENCHER: e-mail, WhatsApp, endereço e redes sociais oficiais (não foram informados). -->
+            <p class="nota">[Preencher: e-mail de atendimento]</p>
+            <p class="nota">[Preencher: WhatsApp / telefone]</p>
+            <p class="nota">[Preencher: redes sociais oficiais]</p>
+          </div>
+          <form id="form-contato" novalidate>
+            <p class="nota" style="margin-bottom:1rem">Campos com * são obrigatórios.</p>
+            <div class="campo"><label for="nome">Nome *</label><input id="nome" name="nome" type="text"
+                autocomplete="name" required aria-describedby="erro-nome">
+              <p class="erro" id="erro-nome"></p>
+            </div>
+            <div class="campo"><label for="email">E-mail *</label><input id="email" name="email" type="email"
+                autocomplete="email" required aria-describedby="erro-email">
+              <p class="erro" id="erro-email"></p>
+            </div>
+            <div class="campo"><label for="assunto">Assunto *</label><input id="assunto" name="assunto" type="text"
+                required aria-describedby="erro-assunto">
+              <p class="erro" id="erro-assunto"></p>
+            </div>
+            <div class="campo"><label for="mensagem">Mensagem *</label><textarea id="mensagem" name="mensagem" rows="5"
+                required aria-describedby="erro-mensagem"></textarea>
+              <p class="erro" id="erro-mensagem"></p>
+            </div>
+            <button class="btn" type="submit">Enviar mensagem</button>
+            <p class="status" id="status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--RODAPÉ-->
+  <footer class="ft">
+    <div class="wrap">
+      <img src="assets/img/logo/logo-kicks-district.png" alt="Kicks District">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <p>&copy; <span data-ano>2026</span> Kicks District. Marcas citadas pertencem aos seus respectivos titulares.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

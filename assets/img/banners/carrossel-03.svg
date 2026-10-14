@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">Kicks District — After Dark Street</title><desc id="desc">Campanha vetorial streetwear em tons escuros com destaque violeta e tênis urbano original.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11101e"/><stop offset=".52" stop-color="#090911"/><stop offset="1" stop-color="#211a35"/></linearGradient>
+<linearGradient id="upper" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#3d3d4a"/><stop offset=".45" stop-color="#171823"/><stop offset="1" stop-color="#090a12"/></linearGradient>
+<linearGradient id="mid" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dcd7ef"/><stop offset="1" stop-color="#79748f"/></linearGradient>
+<linearGradient id="sole" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#393548"/><stop offset="1" stop-color="#0a0a11"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c6a4ff"/><stop offset="1" stop-color="#7057eb"/></linearGradient>
+<filter id="shadow" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="18"/></filter><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="30"/></filter>
+<pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="#c5a9ff" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/><rect width="1600" height="1000" fill="url(#grid)"/><path d="M900 0L1600 340L1600 480L830 80Z" fill="#9e72ff" opacity=".10"/><path d="M1010 0L1600 285M930 0L1600 350M860 0L1600 420" stroke="#b99bff" stroke-opacity=".25" stroke-width="2"/><circle cx="1135" cy="520" r="355" fill="#7b51ed" opacity=".18" filter="url(#glow)"/><path d="M0 773L1600 510M0 808L1600 545" stroke="#d0b8ff" stroke-opacity=".10" stroke-width="3"/>
+<g transform="translate(78 55)">
+  <path d="M3 37 L21 3 L48 3 L32 31 L49 31 L69 3 L91 3 L71 39 C66 49 58 54 45 54 L0 54 L14 29 L30 29 L25 39 L38 39 L47 23 L22 23 L12 43 Z" fill="#faf8ff" transform="translate(0 2) scale(.86)"/>
+  <text x="91" y="23" fill="#faf8ff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">KICKS</text>
+  <text x="91" y="49" fill="#faf8ff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="4.2">DISTRICT</text>
+</g><text x="1518" y="88" font-family="Arial" font-size="13" fill="#aaa0c9" text-anchor="end" letter-spacing="3">AFTER DARK / 04</text>
+<g font-family="Arial, Helvetica, sans-serif"><rect x="80" y="218" width="185" height="34" rx="17" fill="#a98cff" fill-opacity=".17" stroke="#b99bff" stroke-opacity=".8"/><text x="172" y="240" text-anchor="middle" fill="#cbb8ff" font-size="12" font-weight="800" letter-spacing="2">STREET CULTURE</text>
+<text x="76" y="350" font-size="75" font-weight="900" fill="#fbf9ff" letter-spacing="-3">A RUA</text><text x="76" y="428" font-size="75" font-weight="900" fill="#fbf9ff" letter-spacing="-3">É SUA</text><text x="76" y="506" font-size="75" font-weight="900" fill="#b99bff" letter-spacing="-3">PISTA.</text>
+<text x="80" y="567" font-size="21" fill="#c2bdd3">Liberdade para criar seu caminho.</text><text x="80" y="598" font-size="21" fill="#c2bdd3">Design urbano. Personalidade real.</text>
+<g transform="translate(80 660)"><rect width="246" height="62" rx="4" fill="#b99bff"/><text x="24" y="38" font-size="14" font-weight="900" fill="#151022" letter-spacing="1.8">DOMINE A CALÇADA</text><path d="M205 23l12 8-12 8m-17-8h28" stroke="#151022" stroke-width="2.2" fill="none"/></g>
+<text x="80" y="800" font-size="12" fill="#9289aa" letter-spacing="3">SKATE • CULTURA • EXPRESSÃO</text></g>
+
+    <g transform="rotate(-5 1060 540)">
+      <ellipse cx="1070" cy="705" rx="410" ry="34" fill="#000" opacity=".45" filter="url(#shadow)"/>
+      <path d="M653 589 C735 608 842 610 953 612 L1240 604 C1337 600 1415 581 1452 561 C1470 578 1465 603 1441 619 C1410 641 1363 650 1302 655 L777 663 C704 661 657 646 640 623 C632 611 638 597 653 589Z" fill="#252233" stroke="#11111b" stroke-width="3"/>
+      <path d="M682 630 C785 649 951 650 1091 646 L1338 638 C1381 636 1418 625 1440 611" fill="none" stroke="#d4c8ef" stroke-opacity=".75" stroke-width="3"/>
+      <path d="M729 651 l14 7 M770 654 l14 7 M811 655 l14 7 M852 656 l14 7 M893 656 l14 7 M934 655 l14 7 M975 654 l14 7 M1016 653 l14 7 M1057 652 l14 7 M1098 651 l14 7 M1139 650 l14 7 M1180 648 l14 7 M1221 647 l14 7 M1262 645 l14 7 M1303 642 l14 7" stroke="#11111b" stroke-width="3" stroke-linecap="round"/>
+      <path d="M646 590 C682 571 701 531 726 453 C741 406 770 377 811 374 C851 370 886 390 939 406 L1039 435 C1105 453 1167 430 1234 437 C1316 446 1380 477 1434 518 C1459 537 1474 560 1454 582 C1431 604 1395 619 1350 629 C1227 656 1064 640 935 642 L739 632 C688 628 654 614 646 590Z" fill="#2b2a3a" stroke="#d4c8ef" stroke-width="3"/>
+      <path d="M698 573 C721 525 737 461 754 424 C766 398 792 383 817 388 L849 394 C819 428 806 479 795 531 C788 566 769 602 746 624 L712 617 C691 610 687 591 698 573Z" fill="#11111b" opacity=".72"/>
+      <path d="M715 576 C734 535 745 493 760 451 L783 460 C769 516 756 571 733 605Z" fill="#b99bff"/>
+      <path d="M813 412 C850 405 894 421 929 433 L1008 457 C1010 483 1023 516 1042 540 C1000 558 954 567 906 554 C861 541 823 504 805 471 C799 450 800 425 813 412Z" fill="#d4c8ef" stroke="#11111b" stroke-width="2" opacity=".85"/>
+      <g stroke="#11111b" stroke-opacity=".42" stroke-width="2">
+        <path d="M814 424 l76 128 M831 418 l76 133 M848 416 l76 133 M865 419 l76 130 M882 424 l76 124 M899 428 l76 119 M916 433 l76 113 M933 439 l76 107 M950 444 l76 101 M967 450 l76 95 M984 455 l76 89"/>
+        <path d="M807 440 l201 43 M803 458 l210 44 M810 476 l214 44 M824 494 l210 43 M842 512 l188 39 M863 529 l163 35"/>
+      </g>
+      <path d="M752 443 C770 398 793 376 827 373 C855 371 874 385 899 402 L933 426 L908 450 C879 441 849 423 826 422 C800 421 790 449 783 482Z" fill="#11111b"/>
+      <path d="M797 401 C817 379 839 382 855 392 L897 420 L873 445 C849 433 831 425 813 428 C800 429 793 416 797 401Z" fill="#252233"/>
+      <path d="M860 392 C883 389 904 405 930 423 L962 447 L926 465 L887 441 L858 420Z" fill="#d4c8ef" stroke="#11111b" stroke-width="2"/>
+      <path d="M884 407 L919 430 L906 438 L875 414Z" fill="#b99bff"/>
+      <text x="906" y="430" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle" transform="rotate(30 906 430)">KD</text>
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M852 441 C878 444 898 455 920 468" stroke="#11111b" stroke-width="15"/>
+        <path d="M846 454 C874 457 898 470 923 483" stroke="#d4c8ef" stroke-width="12"/>
+        <path d="M841 468 C869 472 893 485 918 498" stroke="#11111b" stroke-width="15"/>
+        <path d="M836 483 C863 487 888 500 913 513" stroke="#d4c8ef" stroke-width="12"/>
+        <path d="M830 498 C858 502 882 516 907 528" stroke="#11111b" stroke-width="15"/>
+        <path d="M824 513 C850 517 873 530 898 542" stroke="#d4c8ef" stroke-width="12"/>
+      </g>
+      <g fill="#d4c8ef" stroke="#11111b" stroke-width="2"><ellipse cx="855" cy="445" rx="8" ry="5" transform="rotate(24 855 445)"/><ellipse cx="846" cy="465" rx="8" ry="5" transform="rotate(24 846 465)"/><ellipse cx="837" cy="484" rx="8" ry="5" transform="rotate(24 837 484)"/><ellipse cx="829" cy="504" rx="8" ry="5" transform="rotate(24 829 504)"/><ellipse cx="822" cy="523" rx="8" ry="5" transform="rotate(24 822 523)"/></g>
+      <path d="M895 493 C942 501 985 531 1020 564 C1051 592 1094 602 1141 596 C1101 620 1049 626 1004 606 C961 587 939 554 911 536 L880 520Z" fill="#11111b"/>
+      <path d="M900 501 C942 513 978 540 1011 571 C1040 598 1080 607 1110 604" fill="none" stroke="#b99bff" stroke-width="7" stroke-linecap="round"/>
+      <path d="M746 611 C775 621 828 626 877 625 M1032 618 C1135 626 1292 627 1371 603" fill="none" stroke="#11111b" stroke-opacity=".48" stroke-width="2.3" stroke-linecap="round"/>
+      <path d="M713 590 L734 597 L729 610 L708 604Z" fill="#b99bff"/>
+    </g><g font-family="Arial, Helvetica, sans-serif" transform="translate(1260 779)"><path d="M0 0H254" stroke="#b99bff" stroke-width="2"/><text x="0" y="27" font-size="12" fill="#c7b4ff" letter-spacing="3">KD / AFTER DARK 04</text><text x="0" y="58" font-size="23" fill="#fbf9ff" font-weight="900" letter-spacing="1">NIGHT SHIFT</text><text x="0" y="82" font-size="14" fill="#aaa3c1">Feito para deixar marca.</text></g>
+<path d="M80 900H1520" stroke="#fff" stroke-opacity=".14"/><text x="80" y="941" font-size="12" fill="#a49bb9" font-family="Arial" letter-spacing="2.5">KICK YOUR OWN WAY.</text><text x="1520" y="941" font-size="12" fill="#a49bb9" font-family="Arial" text-anchor="end" letter-spacing="2">KICKSDISTRICT • STREET / SKATE / CULTURE</text>
+</svg>

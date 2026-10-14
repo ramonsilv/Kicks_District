@@ -1,14 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Produtos | Kicks District</title>
+<meta name="description" content="Catálogo Kicks District: busque e filtre sneakers por nome e categoria.">
+<link rel="icon" href="assets/favicon/favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/dados.js" defer></script><script src="js/main.js" defer></script><script src="js/produtos.js" defer></script>
 </head>
-
 <body>
-
+<a class="skip" href="#main">Ir para o conteúdo</a>
+<header class="hd"><div class="wrap">
+<a class="logo" href="index.html"><img src="assets/img/logo/logo-kicks-district.png" alt="Kicks District — página inicial"></a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+<nav id="menu" aria-label="Principal"><ul><li><a href="index.html">Home</a></li><li><a href="produtos.html" aria-current="page">Produtos</a></li><li><a href="contato.html">Contato</a></li></ul></nav>
+</div></header>
+<main id="main">
+<section class="sec"><div class="wrap">
+<p class="eyebrow">Catálogo</p><h1>Nossos kicks</h1>
+<p class="nota" style="margin:1rem 0 2rem;max-width:60ch">Explore os modelos, busque por nome ou categoria e abra os detalhes de cada par.</p>
+<div class="tools" role="search">
+<div><label for="busca">Buscar</label><input id="busca" type="search" placeholder="Ex.: Jordan, corrida" autocomplete="off"></div>
+<div><label for="categoria">Categoria</label><select id="categoria"><option value="">Todas</option></select></div>
+<div><label for="ordem">Ordenar</label><select id="ordem"><option value="original">Ordem original</option><option value="az">Nome (A–Z)</option></select></div>
+<button class="btn ghost" id="limpar" type="button">Limpar filtros</button>
+</div>
+<p class="nota" id="contagem" role="status" style="margin-bottom:1rem"></p>
+<ul class="grid" id="grade"></ul>
+<noscript><p class="nota">Ative o JavaScript para visualizar o catálogo.</p></noscript>
+<div class="vazio" id="vazio" hidden><p style="margin-bottom:1rem">Nenhum modelo encontrado para essa busca.</p><button class="btn" id="limpar-vazio" type="button">Limpar filtros</button></div>
+</div></section>
+<dialog id="detalhe" aria-labelledby="d-nome">
+<form method="dialog"><button class="btn ghost x" aria-label="Fechar detalhes">Fechar</button></form>
+<div class="dl"><img id="d-img" alt=""><div><span class="tag" id="d-cat"></span><h2 id="d-nome" style="margin:0"></h2><p id="d-desc"></p>
+<p class="nota">Preço e disponibilidade: fale com a Kicks District.</p><a class="btn" href="contato.html">Pedir informações</a></div></div>
+</dialog>
+</main>
+<footer class="ft"><div class="wrap">
+<img src="assets/img/logo/logo-kicks-district.png" alt="Kicks District">
+<ul><li><a href="index.html">Home</a></li><li><a href="produtos.html">Produtos</a></li><li><a href="contato.html">Contato</a></li></ul>
+<p>&copy; <span data-ano>2026</span> Kicks District. Marcas citadas pertencem aos seus respectivos titulares.</p>
+</div></footer>
 </body>
-
 </html>

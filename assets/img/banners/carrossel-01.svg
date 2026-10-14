@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">Kicks District — Volt Performance</title><desc id="desc">Campanha vetorial de tênis de performance com detalhes verde-lima e visual tecnológico.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151b17"/><stop offset=".55" stop-color="#060907"/><stop offset="1" stop-color="#1d2a20"/></linearGradient>
+<linearGradient id="upper" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e8f0e7"/><stop offset=".5" stop-color="#a9b9aa"/><stop offset="1" stop-color="#65776b"/></linearGradient>
+<linearGradient id="mid" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6fff3"/><stop offset="1" stop-color="#75877a"/></linearGradient>
+<linearGradient id="sole" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#344239"/><stop offset="1" stop-color="#080d09"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dcff48"/><stop offset="1" stop-color="#9ec900"/></linearGradient>
+<filter id="shadow" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="17"/></filter><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="28"/></filter>
+<pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#dfff80" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/><rect width="1600" height="1000" fill="url(#grid)"/><circle cx="1160" cy="520" r="360" fill="#a6d817" opacity=".11" filter="url(#glow)"/><circle cx="1160" cy="520" r="310" fill="none" stroke="#dfff58" stroke-opacity=".22" stroke-width="2"/><circle cx="1160" cy="520" r="258" fill="none" stroke="#fff" stroke-opacity=".1" stroke-dasharray="5 14"/><path d="M815 100 L1580 0 M900 160 L1600 70 M770 230 L1530 140" stroke="#c9ff44" stroke-opacity=".16" stroke-width="3"/>
+<g transform="translate(78 55)">
+  <path d="M3 37 L21 3 L48 3 L32 31 L49 31 L69 3 L91 3 L71 39 C66 49 58 54 45 54 L0 54 L14 29 L30 29 L25 39 L38 39 L47 23 L22 23 L12 43 Z" fill="#f7ffe9" transform="translate(0 2) scale(.86)"/>
+  <text x="91" y="23" fill="#f7ffe9" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">KICKS</text>
+  <text x="91" y="49" fill="#f7ffe9" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="4.2">DISTRICT</text>
+</g><text x="1518" y="88" font-family="Arial" font-size="13" fill="#9bac9a" text-anchor="end" letter-spacing="3">PERFORMANCE DIVISION / 02</text>
+<g font-family="Arial, Helvetica, sans-serif"><rect x="80" y="218" width="176" height="34" rx="17" fill="#dfff48"/><text x="168" y="240" text-anchor="middle" fill="#12180c" font-size="12" font-weight="800" letter-spacing="2">VOLT SERIES</text>
+<text x="77" y="343" font-size="72" font-weight="900" fill="#f7faef" letter-spacing="-3">ENERGIA EM</text><text x="77" y="421" font-size="72" font-weight="900" fill="#f7faef" letter-spacing="-3">CADA</text><text x="77" y="499" font-size="80" font-weight="900" fill="#dfff48" letter-spacing="-3">PASSO.</text>
+<path d="M81 542H146" stroke="#dfff48" stroke-width="5"/><text x="80" y="584" font-size="21" fill="#c0ccc0">Leveza para ir além do limite.</text><text x="80" y="615" font-size="21" fill="#c0ccc0">Tecnologia que acompanha você.</text>
+<g transform="translate(80 672)"><rect width="254" height="62" rx="5" fill="#dfff48"/><text x="24" y="38" font-size="14" font-weight="900" fill="#15200e" letter-spacing="2">SINTA O IMPULSO</text><path d="M211 23l12 8-12 8m-17-8h28" stroke="#15200e" stroke-width="2.2" fill="none"/></g>
+<text x="81" y="802" font-size="12" fill="#849284" letter-spacing="3">RESPOSTA • TRAÇÃO • MOVIMENTO</text></g>
+
+    <g transform="rotate(-5 1060 540)">
+      <ellipse cx="1070" cy="705" rx="410" ry="34" fill="#000" opacity=".45" filter="url(#shadow)"/>
+      <path d="M653 589 C735 608 842 610 953 612 L1240 604 C1337 600 1415 581 1452 561 C1470 578 1465 603 1441 619 C1410 641 1363 650 1302 655 L777 663 C704 661 657 646 640 623 C632 611 638 597 653 589Z" fill="#0e1510" stroke="#26342a" stroke-width="3"/>
+      <path d="M682 630 C785 649 951 650 1091 646 L1338 638 C1381 636 1418 625 1440 611" fill="none" stroke="#e7f0e4" stroke-opacity=".75" stroke-width="3"/>
+      <path d="M729 651 l14 7 M770 654 l14 7 M811 655 l14 7 M852 656 l14 7 M893 656 l14 7 M934 655 l14 7 M975 654 l14 7 M1016 653 l14 7 M1057 652 l14 7 M1098 651 l14 7 M1139 650 l14 7 M1180 648 l14 7 M1221 647 l14 7 M1262 645 l14 7 M1303 642 l14 7" stroke="#26342a" stroke-width="3" stroke-linecap="round"/>
+      <path d="M646 590 C682 571 701 531 726 453 C741 406 770 377 811 374 C851 370 886 390 939 406 L1039 435 C1105 453 1167 430 1234 437 C1316 446 1380 477 1434 518 C1459 537 1474 560 1454 582 C1431 604 1395 619 1350 629 C1227 656 1064 640 935 642 L739 632 C688 628 654 614 646 590Z" fill="#b8c8b9" stroke="#e7f0e4" stroke-width="3"/>
+      <path d="M698 573 C721 525 737 461 754 424 C766 398 792 383 817 388 L849 394 C819 428 806 479 795 531 C788 566 769 602 746 624 L712 617 C691 610 687 591 698 573Z" fill="#26342a" opacity=".72"/>
+      <path d="M715 576 C734 535 745 493 760 451 L783 460 C769 516 756 571 733 605Z" fill="#dfff48"/>
+      <path d="M813 412 C850 405 894 421 929 433 L1008 457 C1010 483 1023 516 1042 540 C1000 558 954 567 906 554 C861 541 823 504 805 471 C799 450 800 425 813 412Z" fill="#e7f0e4" stroke="#26342a" stroke-width="2" opacity=".85"/>
+      <g stroke="#26342a" stroke-opacity=".42" stroke-width="2">
+        <path d="M814 424 l76 128 M831 418 l76 133 M848 416 l76 133 M865 419 l76 130 M882 424 l76 124 M899 428 l76 119 M916 433 l76 113 M933 439 l76 107 M950 444 l76 101 M967 450 l76 95 M984 455 l76 89"/>
+        <path d="M807 440 l201 43 M803 458 l210 44 M810 476 l214 44 M824 494 l210 43 M842 512 l188 39 M863 529 l163 35"/>
+      </g>
+      <path d="M752 443 C770 398 793 376 827 373 C855 371 874 385 899 402 L933 426 L908 450 C879 441 849 423 826 422 C800 421 790 449 783 482Z" fill="#26342a"/>
+      <path d="M797 401 C817 379 839 382 855 392 L897 420 L873 445 C849 433 831 425 813 428 C800 429 793 416 797 401Z" fill="#0e1510"/>
+      <path d="M860 392 C883 389 904 405 930 423 L962 447 L926 465 L887 441 L858 420Z" fill="#e7f0e4" stroke="#26342a" stroke-width="2"/>
+      <path d="M884 407 L919 430 L906 438 L875 414Z" fill="#dfff48"/>
+      <text x="906" y="430" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle" transform="rotate(30 906 430)">KD</text>
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M852 441 C878 444 898 455 920 468" stroke="#26342a" stroke-width="15"/>
+        <path d="M846 454 C874 457 898 470 923 483" stroke="#e7f0e4" stroke-width="12"/>
+        <path d="M841 468 C869 472 893 485 918 498" stroke="#26342a" stroke-width="15"/>
+        <path d="M836 483 C863 487 888 500 913 513" stroke="#e7f0e4" stroke-width="12"/>
+        <path d="M830 498 C858 502 882 516 907 528" stroke="#26342a" stroke-width="15"/>
+        <path d="M824 513 C850 517 873 530 898 542" stroke="#e7f0e4" stroke-width="12"/>
+      </g>
+      <g fill="#e7f0e4" stroke="#26342a" stroke-width="2"><ellipse cx="855" cy="445" rx="8" ry="5" transform="rotate(24 855 445)"/><ellipse cx="846" cy="465" rx="8" ry="5" transform="rotate(24 846 465)"/><ellipse cx="837" cy="484" rx="8" ry="5" transform="rotate(24 837 484)"/><ellipse cx="829" cy="504" rx="8" ry="5" transform="rotate(24 829 504)"/><ellipse cx="822" cy="523" rx="8" ry="5" transform="rotate(24 822 523)"/></g>
+      <path d="M895 493 C942 501 985 531 1020 564 C1051 592 1094 602 1141 596 C1101 620 1049 626 1004 606 C961 587 939 554 911 536 L880 520Z" fill="#26342a"/>
+      <path d="M900 501 C942 513 978 540 1011 571 C1040 598 1080 607 1110 604" fill="none" stroke="#dfff48" stroke-width="7" stroke-linecap="round"/>
+      <path d="M746 611 C775 621 828 626 877 625 M1032 618 C1135 626 1292 627 1371 603" fill="none" stroke="#26342a" stroke-opacity=".48" stroke-width="2.3" stroke-linecap="round"/>
+      <path d="M713 590 L734 597 L729 610 L708 604Z" fill="#dfff48"/>
+    </g><g font-family="Arial, Helvetica, sans-serif" transform="translate(1260 779)"><path d="M0 0H254" stroke="#dfff48" stroke-width="2"/><text x="0" y="27" font-size="12" fill="#dfff48" letter-spacing="3">KD / PERFORMANCE 02</text><text x="0" y="58" font-size="23" fill="#f7faef" font-weight="900" letter-spacing="1">VOLT RUNNER</text><text x="0" y="82" font-size="14" fill="#aeb9ae">Mais longe. Mais você.</text></g>
+<path d="M80 900H1520" stroke="#fff" stroke-opacity=".14"/><text x="80" y="941" font-size="12" fill="#9ba79b" font-family="Arial" letter-spacing="2.5">KICK YOUR OWN WAY.</text><text x="1520" y="941" font-size="12" fill="#9ba79b" font-family="Arial" text-anchor="end" letter-spacing="2">KICKSDISTRICT • RUN / TRAIN / REPEAT</text>
+</svg>

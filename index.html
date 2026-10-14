@@ -4,290 +4,111 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kicks District: tênis lançamentos, clássicos e edições limitadas.">
+  <title>Kicks District | Sneakers e streetwear</title>
+  <meta name="description"
+    content="Kicks District: sneakers e cultura urbana. Conheça os destaques e explore o catálogo.">
+  <link rel="icon" href="assets/favicon/favicon.png" type="image/png">
   <link rel="stylesheet" href="css/style.css">
-
-  <title>Kicks District | Tênis e sneakers</title>
+  <script src="js/dados.js" defer></script>
+  <script src="js/main.js" defer></script>
 </head>
 
 <body>
-
-  <!-- Link de acessibilidade: pula direto para o conteúdo -->
-  <a href="#conteudo">Ir para o conteúdo principal</a>
-
-  <!-- ===================== CABEÇALHO ===================== -->
-  <header id="topo">
-    <a href="index.html" aria-label="Kicks District - página inicial">
-      <img src="/img/logo_Kicks District.png" alt="logo Kicks District" class="logo" >
-    </a>
-
-    <!-- Menu Navegação -->
-    <ul>
-      <li><a href="#login">Produtos</a></li>
-      <li><a href="#cadastro">Contato</a></li>
-      <li><a href="#carrinho">Carrinho (0)</a></li>
-    </ul>
+  <a class="skip" href="#main">Ir para o conteúdo</a>
+  <header class="hd">
+    <div class="wrap">
+      <a class="logo" href="index.html"><img src="assets/img/logo/logo-kicks-district.png"
+          alt="Kicks District — página inicial"></a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu"
+        aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      <nav id="menu" aria-label="Principal">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- ===================== PÁGINA PRINCIPAL ===================== -->
-  <main id="conteudo">
-
-    <!-- Destaque (hero) -->
-    <section aria-labelledby="titulo-destaque">
-      <h1 id="titulo-destaque">Os tênis que movem a cidade</h1>
-      <p>Lançamentos, clássicos e edições limitadas das principais marcas, com envio para todo o Brasil.</p>
-      <p>
-        <a href="#lancamentos">Ver lançamentos</a>
-        <a href="#promocoes">Ver promoções</a>
-      </p>
+  <!--CORPO SITE-->
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow" style="margin:0 0 1rem">Sneaker culture</p>
+          <h1>Your city.<br>Your kicks.</h1>
+          <p>Sneakers que carregam personalidade. Descubra os modelos do catálogo Kicks District.</p>
+          <div class="acoes"><a class="btn" href="produtos.html">Ver produtos</a><a class="btn ghost"
+              href="contato.html">Fale com a gente</a></div>
+        </div>
+        <img src="assets/img/produtos/produto-05.png"
+          alt="Adidas Yeezy 700 Analog sobre rocha escura, campanha Kicks District" width="511" height="509"
+          fetchpriority="high">
+      </div>
     </section>
 
-    <!-- Categorias -->
-    <section id="categorias" aria-labelledby="titulo-categorias">
-      <h2 id="titulo-categorias">Compre por categoria</h2>
-      <ul>
-        <li><a href="#">Masculino</a></li>
-        <li><a href="#">Feminino</a></li>
-        <li><a href="#">Infantil</a></li>
-        <li><a href="#">Corrida</a></li>
-        <li><a href="#">Basquete</a></li>
-        <li><a href="#">Casual</a></li>
-      </ul>
+    <section class="sec">
+      <div class="wrap">
+        <h2>Campanhas</h2>
+        <div class="car" role="region" aria-roledescription="carrossel" aria-label="Campanhas Kicks District">
+          <div class="car-tr"><img src="assets/img/banners/carrossel-01.svg"
+              alt="Campanha Kicks District: Energia em cada passo, linha de performance" width="1600" height="1000"><img
+              src="assets/img/banners/carrossel-02.svg" alt="Campanha Kicks District: Clássico nunca sai de cena"
+              width="1600" height="1000" loading="lazy"><img src="assets/img/banners/carrossel-03.svg"
+              alt="Campanha Kicks District: A rua é sua pista" width="1600" height="1000" loading="lazy"></div>
+          <button class="car-nav prev" type="button" aria-label="Slide anterior">&lsaquo;</button>
+          <button class="car-nav next" type="button" aria-label="Próximo slide">&rsaquo;</button>
+          <div class="car-ctl">
+            <div class="car-dots" role="group" aria-label="Escolher slide"></div><button class="car-pause"
+              type="button">Pausar</button>
+          </div>
+        </div>
+      </div>
     </section>
-
-    <!-- Lançamentos -->
-    <section id="lancamentos" aria-labelledby="titulo-lancamentos">
-      <h2 id="titulo-lancamentos">Lançamentos</h2>
-
-      <article>
-        <a href="#">
-          <img src="img/produto-1.jpg" alt="Tênis modelo 1, vista lateral" width="300" height="300">
-          <h3>Nome do tênis 1</h3>
-        </a>
-        <p>Marca</p>
-        <p>R$ 0,00</p>
-        <button type="button">Adicionar ao carrinho</button>
-      </article>
-
-      <article>
-        <a href="#">
-          <img src="img/produto-2.jpg" alt="Tênis modelo 2, vista lateral" width="300" height="300">
-          <h3>Nome do tênis 2</h3>
-        </a>
-        <p>Marca</p>
-        <p>R$ 0,00</p>
-        <button type="button">Adicionar ao carrinho</button>
-      </article>
-
-      <article>
-        <a href="#">
-          <img src="img/produto-3.jpg" alt="Tênis modelo 3, vista lateral" width="300" height="300">
-          <h3>Nome do tênis 3</h3>
-        </a>
-        <p>Marca</p>
-        <p>R$ 0,00</p>
-        <button type="button">Adicionar ao carrinho</button>
-      </article>
-
-      <article>
-        <a href="#">
-          <img src="img/produto-4.jpg" alt="Tênis modelo 4, vista lateral" width="300" height="300">
-          <h3>Nome do tênis 4</h3>
-        </a>
-        <p>Marca</p>
-        <p>R$ 0,00</p>
-        <button type="button">Adicionar ao carrinho</button>
-      </article>
+    <section class="sec">
+      <div class="wrap">
+        <h2>Escolha seu estilo</h2>
+        <div class="cats">
+          <a href="produtos.html?cat=Corrida">Corrida<span>Leveza e performance</span></a>
+          <a href="produtos.html?cat=Cl%C3%A1ssicos">Clássicos<span>Silhuetas atemporais</span></a>
+          <a href="produtos.html?cat=Hype">Hype<span>Ícones da cultura sneaker</span></a>
+        </div>
+      </div>
     </section>
-
-    <!-- Marcas -->
-    <section id="marcas" aria-labelledby="titulo-marcas">
-      <h2 id="titulo-marcas">Marcas</h2>
-      <ul>
-        <li><a href="#">Marca A</a></li>
-        <li><a href="#">Marca B</a></li>
-        <li><a href="#">Marca C</a></li>
-        <li><a href="#">Marca D</a></li>
-      </ul>
+    <section class="sec">
+      <div class="wrap">
+        <h2>Em destaque</h2>
+        <ul class="grid" id="destaques"></ul>
+        <noscript>
+          <p class="nota">Ative o JavaScript para ver os destaques ou acesse o <a href="produtos.html">catálogo</a>.</p>
+        </noscript>
+        <p style="margin-top:1.5rem"><a class="btn" href="produtos.html">Ver catálogo completo</a></p>
+      </div>
     </section>
-
-    <!-- Promoções -->
-    <section id="promocoes" aria-labelledby="titulo-promocoes">
-      <h2 id="titulo-promocoes">Promoções</h2>
-      <p>Descreva aqui a oferta da semana, o prazo e as condições.</p>
-      <p><a href="#">Ver todas as ofertas</a></p>
+    <section class="sec">
+      <div class="wrap">
+        <p class="eyebrow">Kicks District</p>
+        <h2>Mais que um tênis.<br>Uma identidade.</h2>
+        <p class="nota" style="max-width:60ch;font-size:1rem">A Kicks District nasce da cultura sneaker e do streetwear:
+          cada par é uma forma de se expressar na cidade. Aqui, o tênis é o protagonista.</p>
+        <p style="margin-top:1.5rem"><a class="btn ghost" href="contato.html">Entrar em contato</a></p>
+      </div>
     </section>
-
-    <!-- Formulário 2: login -->
-    <section id="login" aria-labelledby="titulo-login">
-      <h2 id="titulo-login">Entrar</h2>
-      <form action="#" method="post">
-        <p>
-          <label for="login-email">E-mail</label><br>
-          <input type="email" id="login-email" name="email" autocomplete="email" required>
-        </p>
-        <p>
-          <label for="login-senha">Senha</label><br>
-          <input type="password" id="login-senha" name="senha" autocomplete="current-password" required>
-        </p>
-        <p>
-          <label><input type="checkbox" name="lembrar"> Manter conectado</label>
-        </p>
-        <p><button type="submit">Entrar</button></p>
-        <p><a href="#">Esqueci minha senha</a></p>
-      </form>
-    </section>
-
-    <!-- Formulário 3: cadastro -->
-    <section id="cadastro" aria-labelledby="titulo-cadastro">
-      <h2 id="titulo-cadastro">Criar conta</h2>
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Seus dados</legend>
-          <p>
-            <label for="cad-nome">Nome completo</label><br>
-            <input type="text" id="cad-nome" name="nome" autocomplete="name" required>
-          </p>
-          <p>
-            <label for="cad-email">E-mail</label><br>
-            <input type="email" id="cad-email" name="email" autocomplete="email" required>
-          </p>
-          <p>
-            <label for="cad-tel">Telefone</label><br>
-            <input type="tel" id="cad-tel" name="telefone" autocomplete="tel" placeholder="(62) 90000-0000">
-          </p>
-          <p>
-            <label for="cad-numero">Numeração do tênis</label><br>
-            <select id="cad-numero" name="numeracao">
-              <option value="">Selecione</option>
-              <option value="36">36</option>
-              <option value="37">37</option>
-              <option value="38">38</option>
-              <option value="39">39</option>
-              <option value="40">40</option>
-              <option value="41">41</option>
-              <option value="42">42</option>
-              <option value="43">43</option>
-              <option value="44">44</option>
-            </select>
-          </p>
-        </fieldset>
-
-        <fieldset>
-          <legend>Acesso</legend>
-          <p>
-            <label for="cad-senha">Senha (mínimo 8 caracteres)</label><br>
-            <input type="password" id="cad-senha" name="senha" minlength="8" autocomplete="new-password" required>
-          </p>
-          <p>
-            <label for="cad-senha2">Confirmar senha</label><br>
-            <input type="password" id="cad-senha2" name="senha_confirmacao" minlength="8" autocomplete="new-password"
-              required>
-          </p>
-        </fieldset>
-
-        <p>
-          <label>
-            <input type="checkbox" name="termos" required>
-            Li e aceito os <a href="#">Termos de uso</a> e a <a href="#">Política de privacidade</a>
-          </label>
-        </p>
-        <p><button type="submit">Criar conta</button></p>
-      </form>
-    </section>
-
-    <!-- Formulário 4: newsletter -->
-    <section id="newsletter" aria-labelledby="titulo-newsletter">
-      <h2 id="titulo-newsletter">Receba os lançamentos primeiro</h2>
-      <form action="#" method="post">
-        <label for="news-email">E-mail</label>
-        <input type="email" id="news-email" name="email" autocomplete="email" required>
-        <button type="submit">Assinar newsletter</button>
-      </form>
-    </section>
-
-    <!-- Formulário 5: contato -->
-    <section id="contato" aria-labelledby="titulo-contato">
-      <h2 id="titulo-contato">Fale com a gente</h2>
-      <form action="#" method="post">
-        <p>
-          <label for="ct-nome">Nome</label><br>
-          <input type="text" id="ct-nome" name="nome" autocomplete="name" required>
-        </p>
-        <p>
-          <label for="ct-email">E-mail</label><br>
-          <input type="email" id="ct-email" name="email" autocomplete="email" required>
-        </p>
-        <p>
-          <label for="ct-assunto">Assunto</label><br>
-          <select id="ct-assunto" name="assunto" required>
-            <option value="">Selecione</option>
-            <option value="pedido">Dúvida sobre pedido</option>
-            <option value="troca">Troca ou devolução</option>
-            <option value="produto">Dúvida sobre produto</option>
-            <option value="outro">Outro assunto</option>
-          </select>
-        </p>
-        <p>
-          <label for="ct-mensagem">Mensagem</label><br>
-          <textarea id="ct-mensagem" name="mensagem" rows="5" cols="40" required></textarea>
-        </p>
-        <p><button type="submit">Enviar mensagem</button></p>
-      </form>
-    </section>
-
-    <!-- Área reservada para o carrinho (a ser implementada) -->
-    <section id="carrinho" aria-labelledby="titulo-carrinho">
-      <h2 id="titulo-carrinho">Carrinho</h2>
-      <p>Seu carrinho está vazio. Adicione um tênis para começar.</p>
-    </section>
-
   </main>
 
-  <!-- ===================== RODAPÉ ===================== -->
-  <footer>
-    <section aria-labelledby="rodape-institucional">
-      <h2 id="rodape-institucional">Institucional</h2>
+  <!--RODAPÉ-->
+  <footer class="ft">
+    <div class="wrap">
+      <img src="assets/img/logo/logo-kicks-district.png" alt="Kicks District">
       <ul>
-        <li><a href="#">Sobre a Kicks District</a></li>
-        <li><a href="#">Trabalhe conosco</a></li>
-        <li><a href="#">Política de privacidade</a></li>
-        <li><a href="#">Termos de uso</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
       </ul>
-    </section>
-
-    <section aria-labelledby="rodape-ajuda">
-      <h2 id="rodape-ajuda">Ajuda</h2>
-      <ul>
-        <li><a href="#">Prazos e entrega</a></li>
-        <li><a href="#">Trocas e devoluções</a></li>
-        <li><a href="#">Guia de tamanhos</a></li>
-        <li><a href="#">Perguntas frequentes</a></li>
-      </ul>
-    </section>
-
-    <section aria-labelledby="rodape-atendimento">
-      <h2 id="rodape-atendimento">Atendimento</h2>
-      <address>
-        <p>E-mail: <a href="mailto:contato@kicksdistrict.com.br">contato@kicksdistrict.com.br</a></p>
-        <p>Telefone: <a href="tel:+5500000000000">(00) 0000-0000</a></p>
-        <p>Segunda a sexta, das 9h às 18h</p>
-      </address>
-    </section>
-
-    <section aria-labelledby="rodape-redes">
-      <h2 id="rodape-redes">Redes sociais</h2>
-      <ul>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">TikTok</a></li>
-        <li><a href="#">YouTube</a></li>
-      </ul>
-    </section>
-
-    <p><small>&copy; 2026 Kicks District. Todos os direitos reservados.</small></p>
-    <p><a href="#topo">Voltar ao topo</a></p>
+      <p>&copy; <span data-ano>2026</span> Kicks District. Marcas citadas pertencem aos seus respectivos titulares.</p>
+    </div>
   </footer>
-  <script src="js/script.js"></script>
 </body>
 
 </html>
